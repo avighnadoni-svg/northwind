@@ -1,0 +1,11 @@
+@"
+target/
+dbt_packages/
+logs/
+.env
+profiles.yml
+__pycache__/
+*.pyc
+.vscode/
+.idea/
+"@ | Set-Content .gitignore
